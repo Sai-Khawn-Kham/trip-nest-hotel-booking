@@ -1,5 +1,4 @@
 import React from "react";
-import PublicContainer from "./PublicContainer";
 
 const PublicFooter = () => {
    const date = new Date();

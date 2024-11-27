@@ -2,7 +2,7 @@ import React from "react";
 import { HiChevronRight, HiMiniHome } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
-const PublicBreadcrumb = ({ currentPageTitle, links }) => {
+const Breadcrumb = ({ currentPageTitle, links }) => {
    return (
       <div className=" w-full flex gap-3 mb-5">
          <nav className="flex" aria-label="Breadcrumb">
@@ -44,4 +44,4 @@ const PublicBreadcrumb = ({ currentPageTitle, links }) => {
    );
 };
 
-export default PublicBreadcrumb;
+export default Breadcrumb;

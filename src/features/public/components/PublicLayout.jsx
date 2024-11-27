@@ -3,15 +3,15 @@ import { Outlet } from "react-router-dom";
 import PublicHeader from "./PublicHeader";
 import PublicFooter from "./PublicFooter";
 import { Toaster } from "react-hot-toast";
-import PublicContainer from "./PublicContainer";
+import Container from "../../../components/Container";
 
 const PublicLayout = () => {
    return (
       <>
          <PublicHeader />
-         <PublicContainer>
+         <Container>
             <Outlet />
-         </PublicContainer>
+         </Container>
          <PublicFooter />
          <Toaster position="top-right" />
       </>
