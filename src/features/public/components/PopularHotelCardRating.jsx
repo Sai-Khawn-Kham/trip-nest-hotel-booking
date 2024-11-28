@@ -14,7 +14,7 @@ const PopularHotelsCardRating = ({ rate }) => {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className={`size-5 stroke-yellow-100 ${
+        className={`size-5 stroke-yellow-50 ${
           num <= currentRate && "fill-yellow-300"
         }`}
       >
