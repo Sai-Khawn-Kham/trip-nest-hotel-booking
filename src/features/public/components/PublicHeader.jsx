@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { HiSearch } from "react-icons/hi";
 import { Link, NavLink, useParams, useSearchParams } from "react-router-dom";
+import Container from "../../../components/Container";
 
 const PublicHeader = () => {
    const searchRef = useRef(null);
@@ -8,12 +9,13 @@ const PublicHeader = () => {
    return (
       <header className="sticky top-0">
          <nav className="bg-blue-800 px-4 lg:px-16 py-3">
+            <Container>
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                <Link to={"/"} className="flex items-center gap-2">
                   <div className="flex items-center">
                      <img
                         src="/src/assets/fav.icon"
-                        className="mr-1 h-16"
+                        className="mr-1 h-12"
                         alt="Logo"
                      />
                   </div>
@@ -85,6 +87,7 @@ const PublicHeader = () => {
                   </ul>
                </div>
             </div>
+            </Container>
          </nav>
       </header>
    );
