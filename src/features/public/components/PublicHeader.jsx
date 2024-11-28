@@ -7,7 +7,7 @@ const PublicHeader = () => {
    const searchRef = useRef(null);
    const handleSearchInput = () => {};
    return (
-      <header className="sticky top-0">
+      <header className="sticky top-0 z-50">
          <nav className="bg-blue-800 px-4 lg:px-16 py-3">
             <Container>
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">

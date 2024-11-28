@@ -1,9 +1,10 @@
 import React from "react";
+import HomePagePopularHotelsSection from "../components/HomePagePopularHotelsSection";
 
 const HomePage = () => {
    return (
       <>
-         <div>HomePage</div>
+         <HomePagePopularHotelsSection/>
       </>
    );
 };
