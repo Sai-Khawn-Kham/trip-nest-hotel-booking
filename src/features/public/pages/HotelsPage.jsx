@@ -1,9 +1,16 @@
-import React from 'react'
+import HotelHeroSection from "../components/HotelHeroSection";
+import Hotels from "../components/Hotels";
 
 const HotelsPage = () => {
   return (
-    <div>HotelsPage</div>
-  )
-}
+    <>
+      <section>
+        {/* <Breadcrumb currentPageTitle={"Hotels"} /> */}
+        <HotelHeroSection />
+        <Hotels />
+      </section>
+    </>
+  );
+};
 
-export default HotelsPage
+export default HotelsPage;

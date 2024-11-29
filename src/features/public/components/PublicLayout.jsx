@@ -6,16 +6,16 @@ import { Toaster } from "react-hot-toast";
 import Container from "../../../components/Container";
 
 const PublicLayout = () => {
-   return (
-      <>
-         <PublicHeader />
-         <Container>
-            <Outlet />
-         </Container>
-         <PublicFooter />
-         <Toaster position="top-right" />
-      </>
-   );
+  return (
+    <>
+      <PublicHeader />
+
+      <Outlet />
+
+      <PublicFooter />
+      <Toaster position="top-right" />
+    </>
+  );
 };
 
 export default PublicLayout;
