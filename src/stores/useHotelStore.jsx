@@ -57,7 +57,7 @@ const useHotelStore = create((set) => ({
       id: 4,
       name: "Aureum Palace Hotel & Resort",
       slug: "aureum-palace-hotel",
-      location: "Ngapali",
+      location: "Bagan",
       description:
         "Staying at The Gritti Palace in Venice was like stepping back in time. The hotel is a masterpiece of Burmese architecture, with opulent furnishings, Murano glass chandeliers, and historic artwork throughout. My room overlooked the Grand Canal, and the view was simply magical.",
       images: [
