@@ -17,17 +17,17 @@ const PublicFooter = () => {
                   <div className="flex ml-2 gap-3 py-3">
                      <img
                         className="size-7"
-                        src="./src/assets/facebook.png"
+                        src="/src/assets/facebook.png"
                         alt="facebook"
                      />
                      <img
                         className="size-7"
-                        src="./src/assets/x.png"
+                        src="/src/assets/x.png"
                         alt="twitter"
                      />
                      <img
                         className="size-7"
-                        src="./src/assets/instagram.png"
+                        src="/src/assets/instagram.png"
                         alt="instagram"
                      />
                   </div>
@@ -54,34 +54,34 @@ const PublicFooter = () => {
                   <h4 className="text-2xl text-gray-500 font-normal mb-1">Payment Method</h4>
                   <div className="grid grid-cols-3 grid-rows-2 justify-center items-center gap-y-1 mb-2">
                      <div className="border w-[52px] h-8 flex justify-center items-center px-3 py-1">
-                        <img src="./src/assets/visa.png" alt="VISA" />
+                        <img src="/src/assets/visa.png" alt="VISA" />
                      </div>
                      <div className="border w-[52px] h-8 flex justify-center items-center px-3 py-1">
-                        <img src="./src/assets/fpx.png" alt="FPX" />
+                        <img src="/src/assets/fpx.png" alt="FPX" />
                      </div>
                      <div className="border w-[52px] h-8 flex justify-center items-center px-3 py-1">
                         <img
-                           src="./src/assets/mastercard.png"
+                           src="/src/assets/mastercard.png"
                            alt="Master Card"
                         />
                      </div>
                      <div className="border w-[52px] h-8 flex justify-center items-center px-3 py-1">
-                        <img src="./src/assets/apple-pay.png" alt="Apple Pay" />
+                        <img src="/src/assets/apple-pay.png" alt="Apple Pay" />
                      </div>
                      <div className="border w-[52px] h-8 flex justify-center items-center px-3 py-1">
-                        <img src="./src/assets/g-pay.png" alt="Google Pay" />
+                        <img src="/src/assets/g-pay.png" alt="Google Pay" />
                      </div>
                   </div>
                   <h4 className="text-2xl text-gray-500 font-normal mb-1">Our Partners</h4>
                   <div className="flex items-center gap-x-2">
                      <img
                         className="h-8"
-                        src="./src/assets/grab.png"
+                        src="/src/assets/grab.png"
                         alt="Grab"
                      />
                      <img
                         className="h-8"
-                        src="./src/assets/kbz.png"
+                        src="/src/assets/kbz.png"
                         alt="KBZ"
                      />
                   </div>
